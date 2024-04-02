@@ -44,6 +44,7 @@ class MetaAbstractDataBase(dataseries.OHLCDateTime.__class__):
     def __init__(cls, name, bases, dct):
         '''
         Class has already been created ... register subclasses
+        类一经创建，注册子类
         '''
         # Initialize the class
         super(MetaAbstractDataBase, cls).__init__(name, bases, dct)
